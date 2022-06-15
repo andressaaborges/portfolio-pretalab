@@ -22,7 +22,7 @@ li {
     padding: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
-    
+
     background-color: #724796;
 }
 
@@ -44,4 +44,34 @@ li {
     color: #FFF;
     font-size: 18px;
     text-decoration: inherit;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full-name {
+    font-size: 36px;
+    color: #ff4dbc;
+    font-weight: 700;
+    height: 45px;
+}
+
+.title-name {
+    font-size: 20px;
+    line-height: 32px;
+    color: #c6b5d5;
 }
