@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #333;
     margin: 0;
 }
 
@@ -23,7 +24,9 @@ li {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    background-color: #724796;
+    background-color: #DA691A;
+    box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
+    border-radius: 0px 0px 16px 16px;
 }
 
 .header-menu nav {
@@ -65,7 +68,7 @@ li {
 
 .full-name {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #A85214;
     font-weight: 700;
     height: 45px;
 }
@@ -73,7 +76,7 @@ li {
 .title-name {
     font-size: 20px;
     line-height: 32px;
-    color: #c6b5d5;
+    color: #E1955FD2;
 }
 
 .list-article {
@@ -85,7 +88,7 @@ li {
 
 .title-principal {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #A85214;
 }
 
 .list-item {
@@ -99,7 +102,7 @@ li {
 .list-title {
     margin-bottom: 5px;
     font-size: 22px;
-    color: #661e4b;
+    color: #5C3D27;
     font-weight: 700;
 }
 
