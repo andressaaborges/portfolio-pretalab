@@ -75,3 +75,43 @@ li {
     line-height: 32px;
     color: #c6b5d5;
 }
+
+.list-article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title-principal {
+    font-size: 36px;
+    color: #ff4dbc;
+}
+
+.list-item {
+    padding: 32px;
+}
+
+.list-item ul li {
+    margin-bottom: 32px;
+}
+
+.list-title {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+
+.local-list {
+    font-size: 18px;
+    color: #2f80ed;
+}
+
+.description-list {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
