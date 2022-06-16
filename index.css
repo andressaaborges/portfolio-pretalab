@@ -103,7 +103,7 @@ li {
     font-weight: 700;
 }
 
-.local-list {
+.link-list {
     font-size: 18px;
     color: #2f80ed;
 }
@@ -114,4 +114,10 @@ li {
     line-height: 20px;
     color: #828282;
     font-weight: 300;
+}
+
+.wrapper-portfolio {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
 }
