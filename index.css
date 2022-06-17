@@ -143,3 +143,25 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+@media all and (max-width: 800px) {
+    .list-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-right: 2em;
+        flex: 1;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .list-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-right: 2em;
+        flex: 1;
+    }
+}
