@@ -143,3 +143,19 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    background-color: #DA691A;
+    border-radius: 16px 16px 0px 0px; 
+}
+
+.footer-list {
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-list ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
