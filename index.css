@@ -168,3 +168,8 @@ footer {
     margin-bottom: 15px;
     font-size: 18px;
 }
+
+.footer-list h6 {
+    padding-top: 20px;
+    font-weight: 600;
+}
