@@ -77,12 +77,21 @@ li {
     width: 100%;
 }
 
+.principal {
+    background-color: #EAEAEA;
+    padding-top: 65px;
+}
+
 .subcontainer-principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+}
+
+.subcontainer-principal p {
+    line-height: 1.5em;
 }
 
 .full-name {
@@ -139,7 +148,7 @@ li {
 }
 
 .wrapper-portfolio {
-    background-color: #eaeaea;
+    background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
