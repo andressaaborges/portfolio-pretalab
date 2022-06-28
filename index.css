@@ -8,7 +8,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
-    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+code {
+    font-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 li {
