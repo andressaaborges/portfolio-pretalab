@@ -120,9 +120,9 @@ li {
 }
 
 .title-name {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
-    color: #E1955FD2;
+    color: #763E14;
     height: 45px;
 }
 
@@ -155,14 +155,14 @@ li {
 
 .link-list {
     font-size: 18px;
-    color: #00838F;
+    color: #00535C;
 }
 
 .description-list {
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px;
-    color: #828282;
+    color: #595959;
     font-weight: 300;
 }
 
@@ -173,7 +173,7 @@ li {
 }
 
 footer {
-    background-color: #DA691A;
+    background-color: #8D4511;
     border-radius: 16px 16px 0px 0px;
 }
 
