@@ -203,10 +203,16 @@ button {
     justify-content: space-around;
 }
 
-.wrapper-portfolio {
-    background-color: #EAEAEA;
+.wrapper-formation,
+.wrapper-talks,
+.wrapper-portfolio,
+.wrapper-footer {
     display: flex;
     flex-direction: column;
+}
+
+.wrapper-portfolio {
+    background-color: #EFF0F3;
 }
 
 .talks-card {
