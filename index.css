@@ -243,20 +243,55 @@ button {
     border-radius: 16px 16px 0px 0px;
 }
 
+.img-pattern {
+    max-height: 0.3%;
+    position: relative;
+    max-width: 20%;
+    top: 160px;
+    mix-blend-mode: color-burn;
+}
+
+.footer-title {
+    font-size: 36px;
+    color: #EFF0F3;
+    padding-top: 82px;
+}
+
 .footer-list {
-    padding: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
+    align-items: baseline;
+    gap: 36px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #EFF0F3;
+}
+
+.footer-list p {
+    font-weight: 700;
+    font-size: 16px;
+    width: 20%;
+}
+
+.footer-list strong {
+    color: #D9A6A4;
 }
 
 .footer-list ul li {
+    font-weight: 600;
     margin-bottom: 15px;
     font-size: 18px;
 }
 
-.footer-list h6 {
-    padding-top: 20px;
-    font-weight: 600;
+.credits {
+    color: #EFF0F3;
+    font-weight: 500;
+    font-size: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 32px;
+    border-top: 1px solid #666;
 }
 
 .talks-list {
