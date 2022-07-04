@@ -46,6 +46,7 @@ li {
 
 .header-menu nav {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     width: 100%;
 }
@@ -54,26 +55,26 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
-    padding-left: 2em;
+    gap: 1em;
+    width: 100%;
 }
 
 .logo img {
-    height: 3.5em;
+    height: 3em;
 }
 
-.logo h1 {
-    color: #FFF;
+.logo p {
     font-size: 18px;
+    font-weight: 700;
+    color: #EFF0F3;
+    text-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
 }
 
 .list-menu {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     gap: 15px;
     width: 50%;
-    padding-right: 2em;
 }
 
 .list-menu li>a {
