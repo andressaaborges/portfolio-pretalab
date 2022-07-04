@@ -31,6 +31,22 @@ li {
     list-style: none;
 }
 
+details summary::after {
+    content: 'Ver mais';
+}
+
+details[open] summary::after {
+    content: 'Ver menos';
+}
+
+summary {
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    max-width: 7em;
+}
+
 .header-menu {
     display: flex;
     position: fixed;
