@@ -310,7 +310,7 @@ code {
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: inherit;
     color: #EFF0F3;
 }
 
