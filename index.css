@@ -259,6 +259,11 @@ code {
 
 .talks-card hr {
     margin-top: 0.50rem;
+    color: #EFF0F3;
+}
+
+.talks-card .description-list {
+    margin-top: 1em;
 }
 
 .wrapper-footer {
@@ -433,7 +438,7 @@ label,
         padding-bottom: 35px;
         text-align: left;
     }
-    
+
     .footer-list {
         flex-flow: column-reverse wrap;
     }
