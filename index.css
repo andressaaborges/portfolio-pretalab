@@ -158,7 +158,7 @@ button {
 
 .list-article {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -172,7 +172,7 @@ button {
     padding: 32px;
 }
 
-.list-item ul li {
+.list-item li {
     margin-bottom: 32px;
 }
 
