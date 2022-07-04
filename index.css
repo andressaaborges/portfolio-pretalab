@@ -106,8 +106,41 @@ li {
     text-align: left;
 }
 
+.img-principal {
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+
+.subcontainer-principal img:first-child {
+    max-height: 100%;
+    z-index: 2;
+}
+
+.subcontainer-principal .patterns-decoration {
+    mix-blend-mode: color-burn;
+    max-height: 100%;
+    max-width: 20%;
+    position: absolute;
+    right: 140px;
+    z-index: 1;
+}
+
 .subcontainer-principal p {
     line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #333;
+    color: #FCFCFC;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .full-name {
