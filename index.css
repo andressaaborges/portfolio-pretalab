@@ -306,10 +306,12 @@ code {
     color: #D9A6A4;
 }
 
-.footer-list ul li {
+.link-footer {
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 18px;
+    text-decoration: none;
+    color: #EFF0F3;
 }
 
 .credits {
