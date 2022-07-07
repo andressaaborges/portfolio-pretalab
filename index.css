@@ -357,11 +357,11 @@ label,
         padding: 5px;
     }
 
-    #saiba-mais {
+    #mobile-menu {
         display: none;
     }
 
-    #mobile-btn:checked~#saiba-mais {
+    #mobile-btn:checked~#mobile-menu {
         display: block;
     }
 
