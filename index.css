@@ -147,7 +147,7 @@ summary {
     margin-bottom: 30px;
 }
 
-button {
+.click-more-about {
     cursor: pointer;
     background-color: #333;
     color: #FCFCFC;
@@ -326,8 +326,7 @@ code {
 
 .list-mobile-menu,
 .subcontainer-principal p br,
-label,
-#mobile-btn {
+.click-menu {
     display: none;
 }
 
@@ -344,25 +343,20 @@ label,
         display: none;
     }
 
-    #mobile-btn {
-        display: none;
-    }
-
-    label {
-        -webkit-appearance: push-button;
-        -moz-appearance: button;
+    .click-menu {
         display: block;
         cursor: pointer;
         color: #EFF0F3;
         padding: 5px;
+        background: none;
+        border: none;
+        text-decoration: none;
+        font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
+        font-size: 16px;
     }
 
-    #mobile-menu {
+    .closed {
         display: none;
-    }
-
-    #mobile-btn:checked~#mobile-menu {
-        display: block;
     }
 
     .list-mobile-menu {

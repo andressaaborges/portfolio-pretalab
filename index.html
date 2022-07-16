@@ -24,25 +24,8 @@
             <p><strong>Andressa Borges</strong></p>
         </div>
         <nav>
-            <label for="mobile-btn">MENU</label>
-            <input type="checkbox" id="mobile-btn">
-            <div id="mobile-menu">
-                <ul class="list-mobile-menu">
-                    <li>
-                        <a href="#formation">Formação</a>
-                    </li>
-                    <li>
-                        <a href="#blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#talks">Palestras</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="list-menu">
+            <button id="mobile-btn" class="click-menu" type="button" onclick="createMenuMobile()">MENU</button>
+            <ul id="list-menu-id" class="list-menu" >
                 <li>
                     <a href="#formation">Formação</a>
                 </li>
@@ -82,7 +65,7 @@
                         na tecnologia e promover diversidade e inclusão de pessoas pretas no mercado. Escreve sobre
                         carreira em TI no <strong>LinkedIn</strong> para ajudar iniciantes em programação.
                     </p>
-                    <button>Saiba Mais</button>
+                    <button class="click-more-about">Saiba Mais</button>
                 </div>
             </article>
         </section>
@@ -227,10 +210,12 @@
                 <p>Não é sobre tecnologia, é sobre <strong>pessoas</strong>.</p>
                 <ul>
                     <li><i class="fas fa-envelope-square estilo-icon"></i>
-                        <a class="link-footer" href="mailto:contatoandressaaborges@gmail.com" target="_blank"> Envie um email.</a>
+                        <a class="link-footer" href="mailto:contatoandressaaborges@gmail.com" target="_blank"> Envie um
+                            email.</a>
                     </li>
                     <li><i class="fab fa-linkedin estilo-icon"></i><a class="link-footer"
-                            href="https://www.linkedin.com/in/andressaaborges/" target="_blank"> Conecte-se no LinkedIn.</a></li>
+                            href="https://www.linkedin.com/in/andressaaborges/" target="_blank"> Conecte-se no
+                            LinkedIn.</a></li>
                     <li><i class="fab fa-github estilo-icon"></i> <a class="link-footer"
                             href="https://github.com/andressaaborges" target="_blank"> Siga no Github.</a></li>
                 </ul>
@@ -238,6 +223,8 @@
             <p class="credits">Copyright © 2022 • Desenvolvido por Andressa Borges | Ciclo Formativo Pretalab</p>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
