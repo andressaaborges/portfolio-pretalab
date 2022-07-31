@@ -1,0 +1,14 @@
+@import url(./../styles/index.css);
+
+.list-title {
+    margin-bottom: 1.2em;
+}
+
+.simple-paragraph {
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+}
+
+.return {
+    color: rgba(51, 51, 51, 0.744);
+}
