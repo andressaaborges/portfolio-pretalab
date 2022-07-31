@@ -267,6 +267,7 @@ code {
 
 .talks-card hr {
     margin-top: 1em;
+    width: 100%;
     color: rgba(102, 102, 102, 0.794);
 }
 
